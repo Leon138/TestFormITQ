@@ -1,0 +1,21 @@
+.input-field {
+  width: 25vw;
+	display: flex;
+	flex-direction: column;
+  margin-bottom: 2vh;
+}
+
+.input-field input {
+	height: 4vh;
+	margin: 5px 0px 5px;
+	padding: 0 10px 0 5px;
+	border-radius: 10px;
+} 
+
+.input-error {
+	border: 2px solid red;
+}
+
+.error-message {
+	color: red;
+}
