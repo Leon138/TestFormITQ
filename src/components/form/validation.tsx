@@ -20,5 +20,5 @@ export const validationShema = yup.object().shape({
     .string()
     .matches(regexp.email, "Please enter email type example@mail.com")
     .email("Please enter valid email")
-    .required("Please Enter Email")
+    .required("Please enter email")
 });
